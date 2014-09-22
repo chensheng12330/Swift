@@ -32,4 +32,8 @@ class SwiftTestTests: XCTestCase {
         }
     }
     
+    func test1() {
+        
+    }
+    
 }
