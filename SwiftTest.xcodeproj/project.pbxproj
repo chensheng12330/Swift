@@ -10,6 +10,8 @@
 		584970011990D0BC00891241 /* SHString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584970001990D0BC00891241 /* SHString.swift */; };
 		588809F81989E8DC00E4654E /* letOrVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588809F71989E8DC00E4654E /* letOrVar.swift */; };
 		588809FA1989E95500E4654E /* SHWObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588809F91989E95500E4654E /* SHWObject.swift */; };
+		5890F14C19D10D2C005E24F9 /* SHInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890F14B19D10D2C005E24F9 /* SHInheritance.swift */; };
+		5896055819D3B6AA0073FEF7 /* SHAutomaticReferenceCounting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5896055719D3B6AA0073FEF7 /* SHAutomaticReferenceCounting.swift */; };
 		58B3326919CFCB300007B2E3 /* SHMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B3326819CFCB300007B2E3 /* SHMethods.swift */; };
 		58B3326B19CFFB5A0007B2E3 /* SHSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B3326A19CFFB5A0007B2E3 /* SHSubscripts.swift */; };
 		58B537D319A58857001F8183 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B537D219A58857001F8183 /* Collection.swift */; };
@@ -38,6 +40,8 @@
 		584970001990D0BC00891241 /* SHString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHString.swift; sourceTree = "<group>"; };
 		588809F71989E8DC00E4654E /* letOrVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letOrVar.swift; sourceTree = "<group>"; };
 		588809F91989E95500E4654E /* SHWObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHWObject.swift; sourceTree = "<group>"; };
+		5890F14B19D10D2C005E24F9 /* SHInheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHInheritance.swift; sourceTree = "<group>"; };
+		5896055719D3B6AA0073FEF7 /* SHAutomaticReferenceCounting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHAutomaticReferenceCounting.swift; sourceTree = "<group>"; };
 		58B3326819CFCB300007B2E3 /* SHMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHMethods.swift; sourceTree = "<group>"; };
 		58B3326A19CFFB5A0007B2E3 /* SHSubscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHSubscripts.swift; sourceTree = "<group>"; };
 		58B537D219A58857001F8183 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		58B99610194A8F3700085B6E /* SwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestTests.swift; sourceTree = "<group>"; };
 		58BF940819B804B60069CAA6 /* SHProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHProperties.swift; sourceTree = "<group>"; };
 		58C9880D19B56B4700EAB332 /* Classes1Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes1Structures.swift; sourceTree = "<group>"; };
+		58CA516019D11ADF00411639 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		58D5A19919B0202900876DA7 /* ControlFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
 		58F6798F1990C64D003C299C /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +115,9 @@
 				58BF940819B804B60069CAA6 /* SHProperties.swift */,
 				58B3326819CFCB300007B2E3 /* SHMethods.swift */,
 				58B3326A19CFFB5A0007B2E3 /* SHSubscripts.swift */,
+				5890F14B19D10D2C005E24F9 /* SHInheritance.swift */,
+				5896055719D3B6AA0073FEF7 /* SHAutomaticReferenceCounting.swift */,
+				58CA516019D11ADF00411639 /* Header.h */,
 			);
 			path = SwiftTest;
 			sourceTree = "<group>";
@@ -241,6 +249,7 @@
 				58B99600194A8F3700085B6E /* ViewController.swift in Sources */,
 				58BF940919B804B60069CAA6 /* SHProperties.swift in Sources */,
 				58F679901990C64D003C299C /* Operators.swift in Sources */,
+				5896055819D3B6AA0073FEF7 /* SHAutomaticReferenceCounting.swift in Sources */,
 				58B995FE194A8F3700085B6E /* AppDelegate.swift in Sources */,
 				584970011990D0BC00891241 /* SHString.swift in Sources */,
 				588809F81989E8DC00E4654E /* letOrVar.swift in Sources */,
@@ -248,6 +257,7 @@
 				58D5A19A19B0202900876DA7 /* ControlFlow.swift in Sources */,
 				58B3326919CFCB300007B2E3 /* SHMethods.swift in Sources */,
 				58B537D319A58857001F8183 /* Collection.swift in Sources */,
+				5890F14C19D10D2C005E24F9 /* SHInheritance.swift in Sources */,
 				58C9880E19B56B4700EAB332 /* Classes1Structures.swift in Sources */,
 				588809FA1989E95500E4654E /* SHWObject.swift in Sources */,
 			);
